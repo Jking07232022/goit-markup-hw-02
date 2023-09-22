@@ -1,20 +1,94 @@
 :root{
-    --logo-primary-text-color: #4D5AE5;
+    --logo-text-color: #4D5AE5;
     --primary-white-color: #F4F4FD;
     --text-black-color: #2E2F42;
     --text-ashblack-color:#434455;
     --text-white-color:#FFF;
 }
 
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--text-white-color);
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/*General*/
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
 /*Header*/
 .logo {
-    color: black;
+    text-decoration: none;
+    color: var(--text-black-color);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .logo span{
     color: var(--logo-text-color);
 }
 
+.header-link{
+    color: var(--text-black-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contact-link{
+    color: var(--text-ashblack-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+a.header-link:hover{
+    color: var(--logo-text-color);
+}
+
+a.contact-link:hover {
+    color: var(--logo-text-color);
+}
+
+.hero{
+    background-color: var(--text-black-color);
+    
+}
+
+.product{
+    color: inherit;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-align: center;
+    width: 496px;
+}
+
+.button{
+    color: inherit;
+    background-color: var(--logo-text-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    border-radius: 4px;
+}
 /*End of Header*/
 
 /*Main*/
