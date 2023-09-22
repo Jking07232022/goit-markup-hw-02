@@ -1,0 +1,24 @@
+:root{
+    --logo-primary-text-color: #4D5AE5;
+    --primary-white-color: #F4F4FD;
+    --text-black-color: #2E2F42;
+    --text-ashblack-color:#434455;
+    --text-white-color:#FFF;
+}
+
+/*Header*/
+.logo {
+    color: black;
+}
+
+.logo span{
+    color: var(--logo-text-color);
+}
+
+/*End of Header*/
+
+/*Main*/
+/*End of Main*/
+
+/*Footer*/
+/*End of Footer*/
