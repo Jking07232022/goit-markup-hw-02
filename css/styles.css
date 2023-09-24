@@ -78,7 +78,8 @@ a.contact-link:hover {
 }
 
 .button{
-    color: inherit;
+    font-family: inherit;
+    color: var(--text-white-color);
     background-color: var(--logo-text-color);
     font-size: 16px;
     font-weight: 500;
