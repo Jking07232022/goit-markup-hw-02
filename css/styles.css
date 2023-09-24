@@ -8,12 +8,6 @@
 
 body{
     font-family: "Roboto", sans-serif;
-    color: var(--text-white-color);
-    width: 1440px;
-    height: 72px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
 }
 
 /*General*/
@@ -23,6 +17,7 @@ body{
 
 .link {
     text-decoration: none;
+    padding: 0%;
 }
 
 /*Header*/
